@@ -9,7 +9,8 @@ WonderScrum専用のボイラープレート Rails6（REST API）+ Docker + Post
 1. .envファイルを作成
 2. .env.sampleの中身を.envファイルにコピペする
 3. DATABASE_NAME=example_developmentをDATABASE_NAME=wonder-scrum_developmentに変更する
-4.. docker-compose up -d --buildコマンドを叩いて、完了
+4. database.ymlの[example]をwonder-scrumに変更する
+5. docker-compose up -d --buildコマンドを叩いて、完了
 
 #### Makifile
 弊社ではMakefileを準備してあります。 頻出コマンドについては「make XXX」で実行できるようにしてあるので、Makefileを確認してみましょう。
