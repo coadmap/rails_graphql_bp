@@ -9,16 +9,16 @@ default: &default
 
 development:
   <<: *default
-  database: wonder-scrum_development
+  database: example_development
 
 test:
   <<: *default
-  database: wonder-scrum_test
+  database: example_test
 
 staging:
   <<: *default
-  database: wonder-scrum_staging
+  database: example_staging
 
 production:
   <<: *default
-  database: wonder-scrum_production
+  database: example_production
